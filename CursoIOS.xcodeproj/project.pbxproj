@@ -15,6 +15,7 @@
 		5743E2E42C54569C0087BC3D /* CursoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2E32C54569C0087BC3D /* CursoIOSUITests.swift */; };
 		5743E2E62C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */; };
 		57FBB3992C59CB8E00444671 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB3982C59CB8E00444671 /* MainView.swift */; };
+		57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB39B2C59CD1A00444671 /* TextExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5743E2E32C54569C0087BC3D /* CursoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSUITests.swift; sourceTree = "<group>"; };
 		5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57FBB3982C59CB8E00444671 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		57FBB39B2C59CD1A00444671 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		57FBB39A2C59CBA800444671 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				57FBB39B2C59CD1A00444671 /* TextExample.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5743E2CB2C54569B0087BC3D /* Exercies1.swift in Sources */,
+				57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */,
 				57FBB3992C59CB8E00444671 /* MainView.swift in Sources */,
 				5743E2C92C54569B0087BC3D /* CursoIOSApp.swift in Sources */,
 			);
