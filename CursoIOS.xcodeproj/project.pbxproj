@@ -18,6 +18,7 @@
 		57E092E12C5AC69600A85CAA /* ButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E092E02C5AC69600A85CAA /* ButtonExample.swift */; };
 		57E092E32C5ACB3400A85CAA /* InputTextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E092E22C5ACB3400A85CAA /* InputTextExample.swift */; };
 		57E092E52C5ACF1A00A85CAA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E092E42C5ACF1A00A85CAA /* MenuView.swift */; };
+		57E092E82C5AD30300A85CAA /* IMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E092E72C5AD30300A85CAA /* IMCView.swift */; };
 		57FBB3992C59CB8E00444671 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB3982C59CB8E00444671 /* MainView.swift */; };
 		57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB39B2C59CD1A00444671 /* TextExample.swift */; };
 		57FBB39E2C59CF8800444671 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB39D2C59CF8800444671 /* ImageExample.swift */; };
@@ -55,6 +56,7 @@
 		57E092E02C5AC69600A85CAA /* ButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExample.swift; sourceTree = "<group>"; };
 		57E092E22C5ACB3400A85CAA /* InputTextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextExample.swift; sourceTree = "<group>"; };
 		57E092E42C5ACF1A00A85CAA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		57E092E72C5AD30300A85CAA /* IMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCView.swift; sourceTree = "<group>"; };
 		57FBB3982C59CB8E00444671 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		57FBB39B2C59CD1A00444671 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 		57FBB39D2C59CF8800444671 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		5743E2C72C54569B0087BC3D /* CursoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				57E092E62C5AD2E700A85CAA /* IMC */,
 				57FBB39A2C59CBA800444671 /* Components */,
 				57FBB3972C59CA3F00444671 /* Exercises */,
 				5743E2C82C54569B0087BC3D /* CursoIOSApp.swift */,
@@ -142,6 +145,14 @@
 				5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */,
 			);
 			path = CursoIOSUITests;
+			sourceTree = "<group>";
+		};
+		57E092E62C5AD2E700A85CAA /* IMC */ = {
+			isa = PBXGroup;
+			children = (
+				57E092E72C5AD30300A85CAA /* IMCView.swift */,
+			);
+			path = IMC;
 			sourceTree = "<group>";
 		};
 		57FBB3972C59CA3F00444671 /* Exercises */ = {
@@ -302,6 +313,7 @@
 				57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */,
 				57FBB3992C59CB8E00444671 /* MainView.swift in Sources */,
 				57FBB39E2C59CF8800444671 /* ImageExample.swift in Sources */,
+				57E092E82C5AD30300A85CAA /* IMCView.swift in Sources */,
 				5743E2C92C54569B0087BC3D /* CursoIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ struct MenuView: View {
     var body: some View {
         NavigationStack{
             VStack{
-                NavigationLink(destination:{}){
+                NavigationLink(destination:IMCView()){
                     Text("IMC Calculator")
                 }
             }
