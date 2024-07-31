@@ -16,6 +16,7 @@
 		5743E2E62C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */; };
 		57FBB3992C59CB8E00444671 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB3982C59CB8E00444671 /* MainView.swift */; };
 		57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB39B2C59CD1A00444671 /* TextExample.swift */; };
+		57FBB39E2C59CF8800444671 /* ImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB39D2C59CF8800444671 /* ImageExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57FBB3982C59CB8E00444671 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		57FBB39B2C59CD1A00444671 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
+		57FBB39D2C59CF8800444671 /* ImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				57FBB39B2C59CD1A00444671 /* TextExample.swift */,
+				57FBB39D2C59CF8800444671 /* ImageExample.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				5743E2CB2C54569B0087BC3D /* Exercies1.swift in Sources */,
 				57FBB39C2C59CD1A00444671 /* TextExample.swift in Sources */,
 				57FBB3992C59CB8E00444671 /* MainView.swift in Sources */,
+				57FBB39E2C59CF8800444671 /* ImageExample.swift in Sources */,
 				5743E2C92C54569B0087BC3D /* CursoIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CursoIOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CursoIOS/Preview\\ Content/Preview\\ Assets.xcassets CursoIOS/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -473,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CursoIOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "CursoIOS/Preview\\ Content/Preview\\ Assets.xcassets CursoIOS/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
