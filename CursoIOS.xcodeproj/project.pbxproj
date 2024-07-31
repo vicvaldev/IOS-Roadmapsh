@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5743E2C92C54569B0087BC3D /* CursoIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2C82C54569B0087BC3D /* CursoIOSApp.swift */; };
-		5743E2CB2C54569B0087BC3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2CA2C54569B0087BC3D /* ContentView.swift */; };
+		5743E2CB2C54569B0087BC3D /* Exercies1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2CA2C54569B0087BC3D /* Exercies1.swift */; };
 		5743E2CD2C54569C0087BC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5743E2CC2C54569C0087BC3D /* Assets.xcassets */; };
 		5743E2D02C54569C0087BC3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5743E2CF2C54569C0087BC3D /* Preview Assets.xcassets */; };
 		5743E2DA2C54569C0087BC3D /* CursoIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2D92C54569C0087BC3D /* CursoIOSTests.swift */; };
 		5743E2E42C54569C0087BC3D /* CursoIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2E32C54569C0087BC3D /* CursoIOSUITests.swift */; };
 		5743E2E62C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */; };
+		57FBB3992C59CB8E00444671 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB3982C59CB8E00444671 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		5743E2C52C54569B0087BC3D /* CursoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5743E2C82C54569B0087BC3D /* CursoIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSApp.swift; sourceTree = "<group>"; };
-		5743E2CA2C54569B0087BC3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5743E2CA2C54569B0087BC3D /* Exercies1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercies1.swift; sourceTree = "<group>"; };
 		5743E2CC2C54569C0087BC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5743E2CF2C54569C0087BC3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5743E2D52C54569C0087BC3D /* CursoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		5743E2DF2C54569C0087BC3D /* CursoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5743E2E32C54569C0087BC3D /* CursoIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSUITests.swift; sourceTree = "<group>"; };
 		5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57FBB3982C59CB8E00444671 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,10 @@
 		5743E2C72C54569B0087BC3D /* CursoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				57FBB39A2C59CBA800444671 /* Components */,
+				57FBB3972C59CA3F00444671 /* Exercises */,
 				5743E2C82C54569B0087BC3D /* CursoIOSApp.swift */,
-				5743E2CA2C54569B0087BC3D /* ContentView.swift */,
+				57FBB3982C59CB8E00444671 /* MainView.swift */,
 				5743E2CC2C54569C0087BC3D /* Assets.xcassets */,
 				5743E2CE2C54569C0087BC3D /* Preview Content */,
 			);
@@ -125,6 +129,21 @@
 				5743E2E52C54569C0087BC3D /* CursoIOSUITestsLaunchTests.swift */,
 			);
 			path = CursoIOSUITests;
+			sourceTree = "<group>";
+		};
+		57FBB3972C59CA3F00444671 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				5743E2CA2C54569B0087BC3D /* Exercies1.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		57FBB39A2C59CBA800444671 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5743E2CB2C54569B0087BC3D /* ContentView.swift in Sources */,
+				5743E2CB2C54569B0087BC3D /* Exercies1.swift in Sources */,
+				57FBB3992C59CB8E00444671 /* MainView.swift in Sources */,
 				5743E2C92C54569B0087BC3D /* CursoIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
