@@ -27,7 +27,7 @@ struct IMCView: View {
                 ButtonCalculator(titulo: "Edad", valor: $edad)
                 ButtonCalculator(titulo: "Peso", valor: $peso)
             }
-
+            IMCCalculatorButton(userWeight: Double(peso), userHeight: height)
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(.backgroundApp)
@@ -133,6 +133,21 @@ struct ButtonCalculator: View {
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(.bgComponent)
+    }
+}
+
+struct IMCCalculatorButton:View {
+    let userWeight: Double
+    let userHeight: Double
+    var body: some View {
+        NavigationStack{
+            NavigationLink(destination:{IMCResult(userWight: userWeight, userHeight: userHeight)}){
+                Text("Calcular").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .bold().foregroundColor(.purple)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 100)
+                    .background(.bgComponent)
+            }
+        }
     }
 }
 
